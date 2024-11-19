@@ -1,14 +1,10 @@
+<!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
             font-family: Arial, sans-serif;
             background-color: #f1f1f1;
@@ -105,8 +101,8 @@
 
     <script>
         // Criptografando o nome de usuário e senha esperados (em Base64 para simplicidade)
-        const encryptedUsername = btoa("Midland"); // "Rodrigo" -> Base64
-        const encryptedPassword = btoa("Midland"); // "23456786543a" -> Base64
+        const encryptedUsername = btoa("Midland"); // "Midland" -> Base64
+        const encryptedPassword = btoa("senha123"); // "senha123" -> Base64
 
         // Evento de submissão do formulário
         document.getElementById('loginForm').addEventListener('submit', function(event) {
