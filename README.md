@@ -123,7 +123,7 @@
             // Compara os valores criptografados
             if (userEncrypted === encryptedUsername && passEncrypted === encryptedPassword) {
                 // Redireciona para o site desejado
-                window.location.href = 'https://www.exemplo.com'; // Substitua pelo URL desejado
+                window.location.href = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTwoC8x_iamqeVxwdx_9pgHAFCIyHqllEg-A&s'; // Substitua pelo URL desejado
             } else {
                 // Exibe mensagem de erro
                 document.getElementById('errorMessage').textContent = 'Nome de utilizador ou palavra-passe incorretos.';
