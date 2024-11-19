@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
@@ -84,14 +83,6 @@
             margin-bottom: 10px;
             font-size: 14px;
         }
-
-        footer {
-            margin-top: 20px;
-        }
-
-        footer .logo {
-            width: 100px;
-        }
     </style>
 </head>
 <body>
@@ -110,16 +101,12 @@
         </form>
 
         <button class="btn-recover">RECUPERAR ACESSO</button>
-
-        <footer>
-            <img src="logo.png" alt="Logo da empresa" class="logo">
-        </footer>
     </div>
 
     <script>
         // Criptografando o nome de usuário e senha esperados (em Base64 para simplicidade)
-        const encryptedUsername = btoa("Rodrigo"); // "Rodrigo" -> Base64
-        const encryptedPassword = btoa("234567123abc"); // "23456786543a" -> Base64
+        const encryptedUsername = btoa("Midland"); // "Rodrigo" -> Base64
+        const encryptedPassword = btoa("Midland"); // "23456786543a" -> Base64
 
         // Evento de submissão do formulário
         document.getElementById('loginForm').addEventListener('submit', function(event) {
@@ -136,7 +123,7 @@
             // Compara os valores criptografados
             if (userEncrypted === encryptedUsername && passEncrypted === encryptedPassword) {
                 // Redireciona para o site desejado
-                window.location.href = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTwoC8x_iamqeVxwdx_9pgHAFCIyHqllEg-A&s'; // Substitua pelo URL desejado
+                window.location.href = 'https://www.exemplo.com'; // Substitua pelo URL desejado
             } else {
                 // Exibe mensagem de erro
                 document.getElementById('errorMessage').textContent = 'Nome de utilizador ou palavra-passe incorretos.';
