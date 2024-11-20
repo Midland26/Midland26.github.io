@@ -8,8 +8,6 @@
             margin: 0;
             font-family: Arial, sans-serif;
             background: linear-gradient(to bottom right, #6BAED6, #00509E);
-            height: 100vh;
-            display: flex;
         }
 
         .login-container {
