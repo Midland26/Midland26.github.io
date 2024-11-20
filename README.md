@@ -10,8 +10,6 @@
             background: linear-gradient(to bottom right, #6BAED6, #00509E);
             height: 100vh;
             display: flex;
-            justify-content: center;
-            align-items: center;
         }
 
         .login-container {
